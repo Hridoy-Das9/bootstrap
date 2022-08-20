@@ -1,0 +1,80 @@
+.about_skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 2fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .about_skills .box h4{
+    text-transform: uppercase;
+  }
+  .about_skills .box  .percent{
+    width: 100%;
+    height: 10px;
+    background:#f0f0f0;
+  }
+  .about_skills .box  .percent div{
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgb(39, 38, 38);
+  }
+  
+  *{
+    margin: 5;
+    padding: 0;
+  }
+  body{
+    background: #D5D8DC;
+  }
+  p{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .resume_data .content{
+    padding-left: 35px;
+    margin-bottom: 20px;
+    width: calc(100% -115px);
+    background: #D5D8DC;
+  }
+  .about_skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 2fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .about_skills .box h4{
+    text-transform: uppercase;
+  }
+  .about_skills .box  .percent{
+    width: 100%;
+    height: 10px;
+    background:#f0f0f0;
+  }
+  .about_skills .box  .percent div{
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgb(39, 38, 38);
+  }
+  
+  .inter ul{
+    display: inline-flex;
+    margin: 0px 10px;
+  }
+  .inter ul li{
+     list-style: none; 
+    margin:0px 20px;
+    background-color: bisque;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .inter ul li:hover{
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.5s ease;
+  }
